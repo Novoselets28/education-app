@@ -1,0 +1,26 @@
+body{
+    font-family: serif;
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.input_container{
+    width: 600px;
+    padding: 30px;
+}
+
+.input_container .input-row{
+    margin-bottom: 12px;
+}
+
+.input_container input:not([type="submit"]){
+    width: 100%;
+    margin: 0 0 3px;
+    border-color: #d6d6d6;
+    color: aliceblue;
+    height: 50px;
+}
