@@ -2,7 +2,7 @@ $(".tab").css("display", "none");
 $("#tab-1").css("display", "block");
 
 function run(hideTab, showTab){
-
+        
     if(hideTab < showTab){ 
         x = $('#tab-'+hideTab);
         y = $(x).find("input")
